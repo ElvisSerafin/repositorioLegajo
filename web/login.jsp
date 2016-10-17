@@ -19,7 +19,7 @@
         
         <form action="Login" class="col-lg-4" id="login" method="post" >
            <h3 class="page-header">LEGAJO DOCENTE UPeU</h3>
-           <h3 class="page-header">LEGAJO DOCENTE UPeU andy</h3>
+           <h3 class="page-header">LEGAJO DOCENTE UPeU</h3>
            
            <input type="text" name="usuario" placeholder="usuario" class="form-control"><br>
             <input type="password" name="clave" placeholder="clave" class="form-control"><br>
