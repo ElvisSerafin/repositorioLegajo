@@ -1,7 +1,7 @@
 <%-- 
     Document   : login
-    Created on : 24/06/2016, 05:31:31 PM
-    Author     : Kiefer
+    Created on : 15/10/2016, 05:31:31 PM
+    Author     : Elvis
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -18,6 +18,7 @@
   
         
         <form action="Login" class="col-lg-4" id="login" method="post" >
+           <h3 class="page-header">LEGAJO DOCENTE UPeU</h3>
            <h3 class="page-header">LEGAJO DOCENTE UPeU</h3>
            
            <input type="text" name="usuario" placeholder="usuario" class="form-control"><br>
