@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        
+
         <title>JSP Page Persona</title>
     </head>
     <body style="width: 100%;height: 100%">
@@ -46,8 +46,8 @@
                                 <li><a href="vista/experiencia/DocUniversitaria.jsp" target="myFrame">Docencia Universitaria</a></li>
                                 <li><a href="vista/experiencia/Idioma.jsp" target="myFrame">Idiomas</a></li>
                                 <li><a href="vista/experiencia/Tic.jsp" target="myFrame">TIC</a></li>
-                                
-                                
+
+
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -55,8 +55,8 @@
                             <ul class="dropdown-menu">
                                 <li><a href="vista/Actualizacion/Capformal.jsp" target="myFrame" >Capacitacion Formal</a></li>
                                 <li><a href="vista/Actualizacion/Eventos.jsp" target="myFrame">Cursos Eventos</a></li>
-                                
-                                                                                            
+
+
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -66,7 +66,7 @@
                                 <li><a href="vista/investigacion/Investigacion.jsp" target="myFrame">Investigacion</a></li>
                                 <li><a href="vista/investigacion/Asesoria.jsp" target="myFrame">Asesoria</a></li>
                                 <li><a href="vista/investigacion/PubliLibro.jsp" target="myFrame">Publicacion de Libro</a></li>
-                                                                                            
+
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -75,12 +75,12 @@
                                 <li><a href="vista/Programas/Psoc.jsp" target="myFrame" >Proyeccion Social</a></li>
                                 <li><a href="vista/Programas/Prog.jsp" target="myFrame">Programas</a></li>
                                 <li><a href="vista/Programas/Prec.jsp" target="myFrame">Premios y Reconocimientos</a></li>
-                                
+
                             </ul>
                         </li>
-                        
+
                     </ul>
-                    
+
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" style="color: #fff;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -99,13 +99,11 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-                               
-        <iframe name="myFrame" style="border: none; width: 100%;height: 100%"></iframe>
-
+        <iframe name="myFrame" style="border: none; width: 100%;height: 100%" src="imagenes/register-page.jpg"></iframe>
         <script src="js/jquery-3.0.0.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script>
-            
+
         </script>
     </body>
 </html>
