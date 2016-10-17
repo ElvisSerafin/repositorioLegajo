@@ -14,7 +14,7 @@
         <title>JSP Page Persona</title>
     </head>
     <body style="width: 100%;height: 100%">
-        <nav class="navbar navbar-default" style="background: #8f1656; ">
+        <nav class="navbar navbar-default" style="background: #8f1656;  ">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -29,8 +29,8 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #fff; ">InformacionPersonal <span class="caret"></span></a>
+                        <li class="dropdown" >
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #ffffff; ">InformacionPersonal <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="vista/Informacion/DatosPersonales.jsp" target="myFrame">Informacion Personal</a></li>
                                 <li><a href="#">Another action</a></li>
