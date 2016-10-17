@@ -211,10 +211,10 @@
                         </form> 
                                 
                             </div>
-                        </form>
+                        
                     </div>
                 </div>
-            </div>
+           
             <div class="tbcont">
                 <table class="table table-bordered table-hover" id="tablaFa">
                     <thead>
