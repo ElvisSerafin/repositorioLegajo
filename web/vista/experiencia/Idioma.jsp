@@ -123,7 +123,7 @@
                                     <label for="cert">Certificado</label>
                                     <input type="file" name="cert" id="cert"<br>
                                 </div> 
-                                <input type="submit" class="btn btn-primary pull-right" id="insertIdi" value="Guardar">
+                                <input type="submit" class="btn btn-primary pull-right" id="insertIdi" value="Guardar"style="background: #8f1656">
                             </div>
                         </form>
                     </div>

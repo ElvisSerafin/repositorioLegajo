@@ -160,7 +160,7 @@
                             <br>
                             <br>
                             <br>
-                            <input  type="submit" class="btn btn-primary pull-right" id="insertIdi" value="Guardar">
+                            <input  type="submit" class="btn btn-primary pull-right" id="insertIdi" value="Guardar"style="background: #8f1656">
                         </form>
                     </div>
                 </div>

@@ -61,7 +61,7 @@
                                 <div class="form-group">
                                     <label for="docum">Lugar</label>
                                     <input  class="form-control"type="text" name="lugar" id="lugar"><br>
-                                    <input type="submit" class="btn btn-primary pull-right" id="insertDoc" value="Guardar">
+                                    <input type="submit" class="btn btn-primary pull-right" id="insertDoc" value="Guardar"style="background: #8f1656">
                                 </div> 
                             </div>
                         </form>

@@ -61,7 +61,7 @@
                                     <label for="reso">Resolucion</label>
                                     <input class="form-control" type="text" id="reso" name="reso">
                                     
-                                    <br><input type="submit" class="btn btn-primary pull-right" id="insertFA" value="Guardar"><br>
+                                    <br><input type="submit" class="btn btn-primary pull-right" id="insertFA" value="Guardar"style="background: #8f1656"><br>
                                 </div> 
                                 
                             </div>

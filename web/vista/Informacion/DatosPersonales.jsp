@@ -44,7 +44,7 @@
                                     <input class="form-control" type="number" size="9" id="cel" name="cel">
                                 </div> 
                             </div>
-                            <div class="col col-lg-3 col-sm-6 col-md-6 col-xs-12">
+                            <div class="col col-lg-4 col-sm-6 col-md-6 col-xs-12">
                             <div class="form-group">
                                 <label for="año">Fecha de Nacimiento</label>
                                 <br>                                                 
@@ -264,6 +264,8 @@
                                 <div class="form-group">
                                     <label for="nac">Nacionalidad</label>
                                     <input class="form-control" type="text" id="nac" name="nac">
+                 <br><input type="submit" class="btn btn-primary pull-right" id="insertFA" value="Guardar"style="background: #8f1656"><br>
+
                                 </div> 
                             </div>  
                            

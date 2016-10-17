@@ -69,7 +69,7 @@
                                 <div class="form-group">
                                     <label for="cert">Certificado</label>
                                     <input type="file" name="cert" id="cert"<br>
-                                    <input type="submit" class="btn btn-primary pull-right" id="insertT" value="Guardar">
+                                    <input type="submit" class="btn btn-primary pull-right" id="insertT" value="Guardar"style="background: #8f1656">
                                 </div> 
                             </div>
                         </form>

@@ -68,7 +68,7 @@
                                 <div class="form-group">
                                     <label for="lugar">Lugar</label>
                                     <input class="form-control" type="text" id="lugar" name="lugar"><br>
-                                    <input type="submit" class="btn btn-primary pull-right" id="insertFA" value="Guardar"><br>
+                                    <input type="submit" class="btn btn-primary pull-right" id="insertFA" value="Guardar" style="background: #8f1656"><br>
                                 </div> 
                             </div>
                         </form>

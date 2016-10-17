@@ -89,7 +89,7 @@
                                 <div class="form-group">
                                     <label for="docum">Documentacion</label>
                                     <input type="file" name="docum" id="docum">
-                                    <input type="submit" class="btn btn-primary pull-right" id="insertExp" value="Guardar">
+                                    <input type="submit" class="btn btn-primary pull-right" id="insertExp" value="Guardar"style="background: #8f1656">
                                 </div> 
                             </div>
                         </form>
