@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 18/06/2016, 12:31:27 PM
-    Author     : Kiefer
+    Author     : Elvis
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -14,7 +14,7 @@
         <title>JSP Page Persona</title>
     </head>
     <body style="width: 100%;height: 100%">
-        <nav class="navbar navbar-default" style="background: orange">
+        <nav class="navbar navbar-default" style="background: #8f1656; ">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #000 ">InformacionPersonal <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #fff; ">InformacionPersonal <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="vista/Informacion/DatosPersonales.jsp" target="myFrame">Informacion Personal</a></li>
                                 <li><a href="#">Another action</a></li>
@@ -38,7 +38,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" style="color: #0c0c0c" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formacion Academica y Profesional <span class="caret"></span></a>
+                            <a href="#" style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formacion Academica y Profesional <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="vista/experiencia/FAcademica.jsp" target="myFrame" >Formacion Academica</a></li>
                                 <li><a href="vista/experiencia/ExProfesional.jsp" target="myFrame">Experiencia Profesional</a></li>
@@ -51,7 +51,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" style="color: #0c0c0c" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actualizacion<span class="caret"></span></a>
+                            <a href="#" style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actualizacion<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="vista/Actualizacion/Capformal.jsp" target="myFrame" >Capacitacion Formal</a></li>
                                 <li><a href="vista/Actualizacion/Eventos.jsp" target="myFrame">Cursos Eventos</a></li>
@@ -60,7 +60,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" style="color: #000" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Investigaciones<span class="caret"></span></a>
+                            <a href="#" style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Investigaciones<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="vista/investigacion/PubliArti.jsp" target="myFrame" >Publicacion de Articulo</a></li>
                                 <li><a href="vista/investigacion/Investigacion.jsp" target="myFrame">Investigacion</a></li>
@@ -70,7 +70,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" style="color: #000" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programas y Proyeccion Social <span class="caret"></span></a>
+                            <a href="#" style="color: #fff;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programas y Proyeccion Social <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="vista/Programas/Psoc.jsp" target="myFrame" >Proyeccion Social</a></li>
                                 <li><a href="vista/Programas/Prog.jsp" target="myFrame">Programas</a></li>
@@ -83,7 +83,7 @@
                     
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" style="color: #000" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <a href="#" class="dropdown-toggle" style="color: #fff;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 <%=request.getSession().getAttribute("Nombre").toString()
                                         + " " + request.getSession().getAttribute("Apellido").toString()%>
                                 <span class="caret"></span></a>
@@ -99,6 +99,7 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+                               
         <iframe name="myFrame" style="border: none; width: 100%;height: 100%"></iframe>
 
         <script src="js/jquery-3.0.0.min.js" type="text/javascript"></script>
